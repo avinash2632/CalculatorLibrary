@@ -22,6 +22,6 @@ jobs:
           command: |
            
             . venv/bin/activate
-            autopep8 --select=W293 --in-place test_calculator.py
+            
             flake8 --exclude=venv* --statistics
             pytest -v --cov=calculator                                     

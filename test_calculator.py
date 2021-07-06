@@ -1,6 +1,5 @@
 import calculator
 
-
 class TestCalculator:   
     
     
